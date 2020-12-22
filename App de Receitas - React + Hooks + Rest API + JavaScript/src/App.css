@@ -1,0 +1,18 @@
+.login {
+  margin-top: 220px;
+}
+
+body {
+  background-image: url(https://thumbs.dreamstime.com/b/molde-do-cartaz-da-tipografia-capa-livro-das-receitas-121562546.jpg);
+}
+
+.space {
+  width: 90px;
+  height: 44px;
+}
+
+.lupa {
+ position: absolute;
+ top: 9px;
+ right: 0px 
+}

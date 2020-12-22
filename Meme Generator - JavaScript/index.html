@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 3</title>
+</head>
+
+<body>
+    <header>
+        <h1>Gerador de Memes</h1>
+    </header>
+    <div>
+        <input type="text" id="text-input" class="text-input" maxlength="60">
+    </div>
+    <div>
+        <img id="meme-1" src="imgs/meme1.png"
+            alt="meme de um boneco palito deitado no chão de barriga para cima olhando fixadamente para o nada"
+            height="150px">
+        <img id="meme-2" src="imgs/meme2.png"
+            alt="meme, visão de baixo para cima de um boneco palito com a expressão no rosto de: sou muito bom"
+            height="150px">
+        <img id="meme-3" src="imgs/meme3.png"
+            alt="meme de um boneco palito com o pescoço esticado para trás vendo a tela do computador" height="150px">
+        <img id="meme-4" src="imgs/meme4.png"
+            alt="meme de um boneco palito com expressão no rosto de perdido" height="150px">
+        <img id="meme-5" src="imgs/fuuuu.png" alt="meme de um boneco palito com expressão facial furiosa"
+            height="150px">
+        <img id="meme-6" src="imgs/wtf.png"
+            alt="meme do jackie chan com as mãos na cabeça subentendendo não entender nada" height="150px">
+    </div>
+    <div id="meme-image-container" class="meme-image-container">
+        <img id="meme-image" class="meme-image">
+        <div id="meme-text" class="meme-text"></div>
+    </div>
+    <div id="botao" class="botao">
+        <button id="earth" class="earth">Terra</button>
+        <button id="fire" class="fire">Fogo</button>
+        <button id="water" class="water">Água</button>
+        <input type="file" id="meme-insert" onchange="setImage(event)">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
