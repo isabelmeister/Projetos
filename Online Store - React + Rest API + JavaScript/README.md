@@ -27,54 +27,11 @@ Este repositório **já conta com uma `main-group` para cada grupo**, identifica
 
 ### Antes de começar a desenvolver:
 
-1. Clone o repositório
-  * `git clone git@github.com:tryber/sd-06-project-frontend-online-store.git`.
-  * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-06-project-frontend-online-store`
-  * Vá para a branch do seu grupo, com `git checkout main-group-XX && git pull`, onde `XX` é o número do seu grupo. Exemplos: `main-group-1`, `main-group-22`.
-
-2. Instale as dependências e inicialize o projeto
+1. Instale as dependências e inicialize o projeto
   * Instale as dependências:
     * `npm install`
   * Inicialize o projeto:
     * `npm start` (uma nova página deve abrir no seu navegador com um texto simples)
-
-3. Faça alterações separadas por novas branchs criadas a partir da branch `main-group-XX`, criando uma nova branch para cada demanda
-  * Verifique que você está na branch `main-group-XX`
-    * Exemplo: `git branch`
-  * Se não estiver, mude para a branch `main-group-XX`
-    * Exemplo: `git checkout main-group-XX && git pull`
-  * Agora, crie uma branch para a demanda que você vai desenvolver do seu projeto
-    * Você deve criar uma branch com uma breve descrição da demanda a ser desenvolvida
-    * Exemplo: `git checkout -b main-group-XX-cria-campo-de-busca`
-
-4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-  * Verifique que as mudanças ainda não estão no _stage_
-    * Exemplo: `git status` (devem aparecer listadas as novas alterações em vermelho)
-  * Adicione o arquivo alterado ao _stage_ do Git
-      * Exemplo:
-        * `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-        * `git status` (devem aparecer listadas as novas alterações em verde)
-  * Faça seus `commit`
-      * Exemplo:
-        * `git commit -m 'cria componente de busca`
-        * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-5. Adicione a sua branch com o novo `commit` ao repositório remoto
-  * Usando o exemplo anterior: `git push -u origin main-group-XX-cria-campo-de-busca`
-
-6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-06-project-frontend-online-store/pulls)
-  * Clique no botão verde _"New pull request"_
-  * Clique na caixa de seleção _"Compare"_ e escolha a branch do grupo, `main-group-XX`, e a sua branch **com atenção**
-  * Coloque um título para a sua _Pull Request_
-    * Exemplo: _"[GRUPO XX] Cria tela de busca"_
-  * Clique no botão verde _"Create pull request"_
-  * Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
-  * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-06-project-frontend-online-store/pulls) e confira que o seu _Pull Request_ está criado
-
-7. Assim que aprovado por pelo menos duas pessoas do seu grupo e o _Linter_ estiver adereçado, acesse **SEU** _Pull Request_ e clique no botão _"Merge pull request"_
 
 ## REQUISITOS DO PROJETO
 
@@ -534,42 +491,6 @@ As pessoas que vendem no Mercado Livre disponibilizam frete grátis a alguns pro
 
 ## Instruções para entregar seu projeto:
 
----
-
 ### DURANTE O DESENVOLVIMENTO
 
-* Faça `commits` das alterações que você fizer no código regularmente
-
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-* Os comandos que você utilizará com mais frequência são:
-  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-  2. `git add` _(para adicionar arquivos ao stage do Git)_
-  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-  4. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-  5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
----
-
-### DEPOIS DE TERMINAR O DESENVOLVIMENTO (OPCIONAL)
-
-Para **"entregar"** seu projeto, siga os passos a seguir:
-
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas
-  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-06`
-
-Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
 ⚠ Lembre-se que garantir que todas as _issues_ comentadas pelo CodeClimate estão resolvidas! ⚠
-
----
-
-### REVISANDO UM PULL REQUEST
-
-⚠⚠⚠
-
-À medida que você e as outras pessoas que estudam na Trybe forem entregando os projetos, vocês receberão um alerta via Slack para também fazer a revisão dos Pull Requests dos seus colegas. Fiquem atentos às mensagens do "Pull Reminders" no Slack!
-
-Use o material que você já viu sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os projetos que chegaram para você.
