@@ -3,5 +3,5 @@ Aqui estão os projetos já realizados por mim com todas as tecnologias e lingua
 
 ## Especificação
 
-Cada projeto tem o nome seguido pelas tecnologias usadas, exemplo: Facebook - HTML & CSS + JavaScript.
+Cada projeto tem o nome seguido pelas tecnologias usadas, exemplo: Facebook - HTML & CSS.
 Dentro dos Readme.md dos projetos estão os requisitos cobrados.
